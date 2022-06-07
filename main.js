@@ -118,9 +118,9 @@ ScrollReveal().reveal(".slideBotAll", slideBotAtOnce);
 // type footer quote
 const options = {
   strings: ["team.", "startup.", "business."],
-  typeSpeed: 40,
-  backDelay: 1000,
-  backSpeed: 40,
+  typeSpeed: 75,
+  backDelay: 2000,
+  backSpeed: 30,
   loop: true,
   smartBackspace: false,
 };
