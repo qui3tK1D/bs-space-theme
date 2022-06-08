@@ -486,8 +486,7 @@ $dropdown-link-active-color: #222;
     background: #fff;
   }
   
-  .navigator:link,
-  .navigator:visited {
+  .navigator{
     background: var(--tab-compo-bg);
     color: var(--my-link-light);
     transition: all 0.3s ease;
@@ -498,10 +497,10 @@ $dropdown-link-active-color: #222;
     opacity: 0;
     pointer-events: none;
     animation: fadeOutDown 1.2s;
+    border:transparent;
   }
   
-  .navigator:hover,
-  .navigator:active {
+  .navigator:hover {
     color: #fff;
     background: var(--my-link-light);
   }

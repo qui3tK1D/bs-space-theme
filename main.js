@@ -40,6 +40,15 @@ tabCompo.addEventListener("click", function (e) {
 
 const showUpSec = document.querySelector(".NaviShowUp");
 const navigator = document.querySelector(".navigator");
+const header = document.querySelector("#header");
+
+// scroll top
+navigator.addEventListener("click", function (e) {
+  e.preventDefault();
+  header.scrollIntoView({ behavior: "smooth" });
+});
+
+//ani
 new Waypoint({
   element: showUpSec,
   handler: function (direction) {
